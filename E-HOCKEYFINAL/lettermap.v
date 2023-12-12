@@ -41,6 +41,8 @@ output reg value
    
    
    //Letter-mapping
+   //character sprites are split into rectangles that are combined to create the whole sprite. As the VGA scans the screen it will see if the x and y coords 
+   //fall within the specified boundaries. If they do then the components of each letter will be set to 1
     assign E1 = ((x > xstart) & (y > ystart) & (x < (xstart+(wwidth/5))) & (y < ystart + wheight)) ? 1 : 0;
     assign E2 = ((x >= xstart+(wwidth/5)) & (y > ystart) & (x < xstart+(2*wwidth/5)) & (y < ystart+(wheight/5))) ? 1 : 0;
     assign E3 = ((x >= xstart+(wwidth/5)) & (y > ystart+(2*wheight/5)) & (x < xstart+(2*wwidth/5)) & (y < ystart+(3*wheight/5))) ? 1 : 0;
