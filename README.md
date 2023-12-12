@@ -13,7 +13,7 @@ Ryan Flynn, Abdulaziz Alrasheed, Jeremy Sajda, Yousif Alhajji
 //
 
 # How to Run the Project
-//
+Once the project is loaded on the FPGA, choose your mode by pressing the number key 1-8 above the letter keys on your keyboard, this project assumes there is a keypad on your keyboard. Once you've selected your mode press space to start. After the game has started, the player on the left uses w,a,s,d to move up, left, down, or right respectively. To shoot the puck once it has been latched, press B to shoot up, N to shoot 
 
 # Overview of the Code Structure
 //
