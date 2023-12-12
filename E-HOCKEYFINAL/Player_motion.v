@@ -26,8 +26,6 @@ module Player_motion(
     input [5:0] paddlewidth,
     input [8:0] maxy,
     input [9:0] maxx,
-    input [8:0] currenty,
-    input [9:0] currentx,
     input ID,
     input space,
     input [1:0]mode,
