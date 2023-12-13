@@ -89,3 +89,8 @@ KEYPAD ./DELETE: hold puck up
 [menu] This module defines the width and height in pixels of each sprite and the x and y coordinates of where each sprite starts. It then calls on lettermap to create each individal sprite of the menu screen, then combines them to create to create the full menu screen. Depending on the game mode, the screen will dipslay which mode is selected.
 
 [GOscreen] This module defines the width and height in pixels of each sprite and the x and y coordinates of where each sprite starts. It then calls on lettermap to create each individal sprite of the Game Over screen, then combines them to create to create the full Game Over screen.
+
+# Sources
+
+In our project, our vga640x480.v, PS2Receiver.v, debounce.v modules came from the snowfall project. Their GitHub is linked below. Everything else was written by us.
+https://github.com/jamih/EC311_SnowFall
